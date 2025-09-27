@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Base.Theme.Vogie" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/gray_800</item>
+        <item name="colorOnSurface">@color/gray_800</item>
+
+        <item name="android:textColor">@color/gray_800</item>
+        <item name="android:textColorPrimary">@color/gray_900</item>
+        <item name="android:textColorSecondary">@color/gray_600</item>
+
+        <item name="cardViewStyle">@style/Widget.Vogie.CardView</item>
+
+        <item name="materialButtonStyle">@style/Widget.Vogie.Button</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.Vogie.BottomNavigationView</item>
+        <item name="textInputStyle">@style/Widget.Vogie.TextInputLayout</item>
+    </style>
+
+    <style name="Theme.Vogie" parent="Base.Theme.Vogie" />
+
+    <style name="Theme.Vogie.NoActionBar" parent="Theme.Vogie">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Vogie.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <style name="Widget.Vogie.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.Vogie.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@drawable/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_color_selector</item>
+        <item name="itemRippleColor">@color/primary_light</item>
+    </style>
+    
+    <style name="Widget.Vogie.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearance">@style/ShapeAppearance.Vogie.MediumComponent</item>
+        <item name="boxStrokeColor">@color/gray_400</item>
+        <item name="hintTextColor">@color/gray_600</item>
+    </style>
+
+    <style name="ShapeAppearance.Vogie.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>

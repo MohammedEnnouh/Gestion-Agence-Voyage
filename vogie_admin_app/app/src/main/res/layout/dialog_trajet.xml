@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ville de départ"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ville d'arrivée"
+        android:layout_marginTop="8dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etHeureDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heure départ (HH:MM)"
+        android:layout_marginTop="8dp"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/etHeureArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heure arrivée (HH:MM)"
+        android:layout_marginTop="8dp"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/etPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prix (MAD)"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

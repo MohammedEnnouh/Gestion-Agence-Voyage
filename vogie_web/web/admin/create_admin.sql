@@ -1,0 +1,2 @@
+INSERT INTO users (full_name, email, phone, password, role, is_active) VALUES 
+('Administrator', 'admin@vogie.com', '0600000000', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin', 1);

@@ -1,0 +1,26 @@
+{
+    "name": "vogie/web",
+    "description": "Vogie Web Application",
+    "type": "project",
+    "require": {
+        "php": ">=7.4.0",
+        "stripe/stripe-php": "^10.0",
+        "endroid/qr-code": "^4.0",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vogie\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

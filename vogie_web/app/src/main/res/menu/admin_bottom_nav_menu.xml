@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard" />
+    
+    <item
+        android:id="@+id/nav_cities"
+        android:icon="@drawable/ic_cities"
+        android:title="Villes" />
+    
+    <item
+        android:id="@+id/nav_routes"
+        android:icon="@drawable/ic_routes"
+        android:title="Trajets" />
+    
+    <item
+        android:id="@+id/nav_payments"
+        android:icon="@drawable/ic_cash"
+        android:title="Paiements" />
+</menu>

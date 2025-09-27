@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Vogie</string>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="city_image">Image de la ville</string>
+
+    <string name="home">Accueil</string>
+    <string name="search">Recherche</string>
+    <string name="favorites">Favoris</string>
+    <string name="profile">Profil</string>
+
+    <string name="marrakech">Marrakech</string>
+    <string name="casablanca">Casablanca</string>
+    <string name="fes">Fès</string>
+    <string name="tangier">Tanger</string>
+    <string name="chefchaouen">Chefchaouen</string>
+    <string name="essaouira">Essaouira</string>
+    <string name="rabat">Rabat</string>
+    <string name="meknes">Meknes</string>
+    <string name="ouarzazate">Ouarzazate</string>
+    <string name="agadir">Agadir</string>
+    <string name="tetouan">Tétouan</string>
+    <string name="dakhla">Dakhla</string>
+
+    <string name="marrakech_desc">La ville ocre</string>
+    <string name="casablanca_desc">La capitale économique</string>
+    <string name="fes_desc">La capitale culturelle</string>
+    <string name="tangier_desc">La ville blanche</string>
+    <string name="chefchaouen_desc">La perle bleue</string>
+    <string name="essaouira_desc">La ville du vent</string>
+    <string name="rabat_desc">The capital city of Morocco</string>
+    <string name="meknes_desc">The imperial city with grand gates</string>
+    <string name="ouarzazate_desc">The gateway to the Sahara desert</string>
+    <string name="agadir_desc">A modern beach resort town</string>
+    <string name="tetouan_desc">Known for its Andalusian influence</string>
+    <string name="dakhla_desc">A paradise for water sports</string>
+
+    <string name="search_clients">Rechercher clients…</string>
+    <string name="client_name">Nom du client</string>
+    <string name="client_email">Email</string>
+    <string name="client_phone">Téléphone</string>
+    <string name="clients">Clients</string>
+
+    <string name="reservations">Réservations</string>
+    <string name="new_reservation">Nouvelle Réservation</string>
+    <string name="reservation_date">Date de réservation</string>
+    <string name="destination">Destination</string>
+    <string name="client">Client</string>
+    <string name="status">Statut</string>
+    <string name="active_reservations">Réservations actives</string>
+
+    <string name="destinations">Destinations</string>
+    <string name="add_destination">Ajouter Destination</string>
+    <string name="destination_name">Nom de la destination</string>
+    <string name="destination_price">Prix</string>
+    <string name="destination_description">Description</string>
+
+    <string name="reports">Rapports</string>
+    <string name="sales_report">Rapport de Ventes</string>
+    <string name="client_report">Rapport Clients</string>
+    <string name="destination_report">Rapport Destinations</string>
+    <string name="monthly_revenue">Revenu mensuel</string>
+
+    <string name="search_button">Rechercher</string>
+    <string name="search_hint">Rechercher une ville…</string>
+    <string name="departure_city">Lieu de départ</string>
+    <string name="destination_city">Destination</string>
+    <string name="departure_date">Date de départ</string>
+    <string name="passengers">Passagers</string>
+    <string name="special_offers">Offres Spéciales</string>
+    <string name="popular_destinations">Destinations Populaires</string>
+    <string name="discount_20">-20%</string>
+    <string name="discount_30">-30%</string>
+    <string name="special_offer_desc">Réservez maintenant et économisez jusqu\'à %d%%</string>
+    <string name="select_date">Sélectionner une date</string>
+    <string name="select_passengers">Nombre de passagers</string>
+    <string name="no_results_found">Aucun résultat trouvé</string>
+    <string name="try_different_keywords">Essayez avec d\'autres mots-clés</string>
+
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="view">Voir</string>
+    <string name="loading">Chargement…</string>
+    <string name="no_data">Aucune donnée disponible</string>
+    <string name="selected">Sélectionné : %s</string>
+
+    <string name="search_coming_soon">Fonction de recherche bientôt disponible !</string>
+    <string name="favorites_coming_soon">Favoris bientôt disponible !</string>
+    <string name="profile_coming_soon">Profil bientôt disponible !</string>
+
+    <string name="welcome_message">Bienvenue sur Vogie</string>
+    <string name="total_clients">Total Clients</string>
+
+    <string name="view_on_map">Voir sur la carte</string>
+    <string name="add_to_favorites">Ajouter aux favoris</string>
+    <string name="book_now">Réserver maintenant</string>
+    <string name="remove_from_favorites">Retirer des favoris</string>
+    <string name="added_to_favorites">%s a été ajouté aux favoris</string>
+    <string name="removed_from_favorites">%s a été retiré des favoris</string>
+</resources>

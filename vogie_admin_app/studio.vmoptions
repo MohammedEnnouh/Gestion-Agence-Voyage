@@ -1,0 +1,37 @@
+# Android Studio VM Options
+# Custom VM options for better memory management
+
+# Heap size settings
+-Xms2048m
+-Xmx6144m
+
+# Metaspace settings
+-XX:MaxMetaspaceSize=1024m
+-XX:MetaspaceSize=512m
+
+# Garbage collection settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseStringDeduplication
+
+# Memory management
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=%USERPROFILE%\Desktop\heap_dumps\
+
+# Performance optimizations
+-XX:+UseCompressedOops
+-XX:+OptimizeStringConcat
+-XX:+UseFastAccessorMethods
+
+# IDE specific optimizations
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-Dfile.encoding=UTF-8
+
+# Reduce startup time
+-XX:TieredStopAtLevel=1
+-XX:+TieredCompilation
+
+# Android specific
+-Dandroid.studio.initialHeapSize=2048m
